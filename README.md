@@ -2,6 +2,8 @@
 Script to decommission a computer (disable, move, append a description)
 
 # Usage
+    .Required Parameters
+    
     .Parameter $Identity
     Takes computerGUIDS. Either a list or a single guid
 
@@ -17,6 +19,8 @@ Script to decommission a computer (disable, move, append a description)
     .Parameter $appendToCurrentDescription
     TRUE if you want to append $newDescription to the end of the existing one. False if you want to completely replace the current description
 
+    .Not Required Parameters
+    
     .Parameter $orderID
     OrderID if running from an automatic service order. Automatically appended at the end of the description
 
