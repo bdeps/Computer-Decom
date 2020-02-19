@@ -27,8 +27,6 @@ Script to decommission a computer (disable, move, append a description)
     .Parameter $orderDate
     OrderDate if running from an automatic service order order. Automatically appended at the end of the description
 
+# Examples
     .EXAMPLE
     Decom-Computers -Identity "ExampleGUID1,ExampleGUID2" -computerDomain "contoso.com" -newDescription "Test Description" -appendToCurrentDescription $true -orderID "123"
-
-# Examples
- Decom-Computers -Identity "ExampleGUID1,ExampleGUID2" -computerDomain "contoso.com" -newDescription "Test Description" -appendToCurrentDescription $true -orderID "123"
