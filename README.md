@@ -30,3 +30,8 @@ Script to decommission a computer (disable, move, append a description)
 # Examples
     .EXAMPLE
     Decom-Computers -Identity "ExampleGUID1,ExampleGUID2" -computerDomain "contoso.com" -newDescription "Test Description" -appendToCurrentDescription $true -orderID "123"
+    
+ # Planned Improvements
+    Add options to clear AD-Groups
+    Add options to append the OU-Path before the move (save in an attribute or description?)
+    
